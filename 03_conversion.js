@@ -60,6 +60,47 @@ let num1, num2, num3
 
 num1 = num2 = num3 = 2 + 2
 
+//Prifix And Postfix
+
+// Prefix vs Postfix (simple explanation):
+
+// 🔹 Prefix
+
+// 👉 Jab operator value se pehle likha jata hai
+
+// Example:
+
+// let a = 5;
+// let b = ++a;
+
+// ✔️ Pehle a increase hoga (6 banega)
+// ✔️ Phir b ko assign hoga
+
+// 👉 Result:
+// a = 6
+// b = 6
+
+// 🔹 Postfix
+
+// 👉 Jab operator value ke baad likha jata hai
+
+// Example:
+
+// let a = 5;
+// let b = a++;
+
+// ✔️ Pehle b ko old value milegi (5)
+// ✔️ Phir a increase hoga
+
+// 👉 Result:
+// a = 6
+// b = 5
+
+// 🔥 Main Difference:
+// Prefix (++a) → pehle change, phir use
+// Postfix (a++) → pehle use, phir change
+
+
 let gameCounter = 100
 ++gameCounter;
 console.log(gameCounter);
