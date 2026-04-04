@@ -74,3 +74,28 @@ console.log(allUsers);
  console.log(Object.entries(anothertinderUser)); // ye her object ko aik arry mn show krta hai
 
 // console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+
+let course = {
+        coursename: "js in hindi",
+    price: "999",
+    courseInstructor: "hitesh"
+}
+
+// course.courseInstructor
+
+const {courseInstructor: instructor} = course
+
+// console.log(courseInstructor);
+console.log(instructor);
+
+// {
+//     "name": "hitesh",
+//     "coursename": "js in hindi",
+//     "price": "free"
+// }
+
+[
+    {},
+    {},
+    {}
+]
